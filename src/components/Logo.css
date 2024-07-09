@@ -1,0 +1,112 @@
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(img/woman.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #0069d9;
+}
+
+/* Background Image Styles */
+.hero-image {
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-image .vehicle {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.svg-fixed-bottom-right {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* para la la pag de crear blog */
+.create-blog {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(171, 20, 213, 0.2);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #0069d9;
+}
