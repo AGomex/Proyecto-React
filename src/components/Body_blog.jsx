@@ -3,7 +3,7 @@ import './Body_blog.css';
 import Logo from './Logo.jsx';
 import { Link } from 'react-router-dom';
 
-const Main = () => {
+const Body_blog = () => {
   const blogEntries = Object.keys(localStorage).filter(key => key.includes('blogEntry_')).map(key => {
     const entry = JSON.parse(localStorage.getItem(key));
     return (
@@ -38,4 +38,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Body_blog;
